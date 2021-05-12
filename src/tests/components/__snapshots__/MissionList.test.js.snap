@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render MissionList with missions 1`] = `
+<div>
+  <h3>
+    Mission List
+  </h3>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Mission ID
+        </th>
+        <th>
+          Mission Name Short
+        </th>
+        <th>
+          Mission Agencies
+        </th>
+        <th>
+          Mission Status
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <MissionListItem
+        agencies="Fspace"
+        id="123abc"
+        key="123abc"
+        mission_id={1}
+        name_full="Mission to Mars"
+        name_short="Mars"
+        status="Approved"
+      />
+      <MissionListItem
+        agencies="Bspce"
+        id="456def"
+        key="456def"
+        mission_id={2}
+        name_full="Venture to Venus"
+        name_short="Venus"
+        status="Doomed"
+      />
+      <MissionListItem
+        agencies="Cspace"
+        id="789ghi"
+        key="789ghi"
+        mission_id={3}
+        name_full="Agent on Argo"
+        name_short="Argo"
+        status="Completed"
+      />
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Should render MissionList without missions 1`] = `
+<div>
+  <h3>
+    Mission List
+  </h3>
+  <p>
+    No missions to display
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Mission ID
+        </th>
+        <th>
+          Mission Name Short
+        </th>
+        <th>
+          Mission Agencies
+        </th>
+        <th>
+          Mission Status
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

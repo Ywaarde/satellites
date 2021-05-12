@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditMissionPage correctly 1`] = `
+<div>
+  <MissionForm
+    mission={
+      Object {
+        "agencies": "Fspace",
+        "id": "123abc",
+        "mission_id": 1,
+        "name_full": "Mission to Mars",
+        "name_short": "Mars",
+        "status": "Approved",
+      }
+    }
+    onSubmit={[Function]}
+  />
+  <button
+    onClick={[Function]}
+  >
+    Delete Mission
+  </button>
+</div>
+`;

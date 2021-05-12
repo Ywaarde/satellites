@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddMissionPage correctly 1`] = `
+<div>
+  <h3>
+    Add New Mission
+  </h3>
+  <MissionForm
+    new_id={6}
+    onSubmit={[Function]}
+  />
+</div>
+`;

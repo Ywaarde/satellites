@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the header correctly 1`] = `
+<div>
+  <h1>
+    Satellites
+  </h1>
+  <NavLink
+    activeClassName="is-active"
+    exact={true}
+    to="/"
+  >
+    Misson Overview
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    to="/create"
+  >
+    Add mission
+  </NavLink>
+</div>
+`;

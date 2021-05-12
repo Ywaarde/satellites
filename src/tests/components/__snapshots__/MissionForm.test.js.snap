@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render MissionForm without missions 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Mission Short Name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Mission Full Name"
+      required={true}
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Agencies"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Status"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button>
+      Save Mission
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should render MissionList with mission 1`] = `
+<div>
+  <h3>
+    Mission ID 
+    1
+  </h3>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Mission Short Name"
+      required={true}
+      type="text"
+      value="Mars"
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Mission Full Name"
+      required={true}
+      value="Mission to Mars"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Agencies"
+      required={true}
+      type="text"
+      value="Fspace"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Status"
+      required={true}
+      type="text"
+      value="Approved"
+    />
+    <button>
+      Save Mission
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should set MissionNameFull on input change 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Mission Short Name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Mission Full Name"
+      required={true}
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Agencies"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Status"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button>
+      Save Mission
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should set MissionNameFull on input change 2`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Mission Short Name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Mission Full Name"
+      required={true}
+      value="Test input"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Agencies"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Status"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button>
+      Save Mission
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should set MissionNameShort on input change 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Mission Short Name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Mission Full Name"
+      required={true}
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Agencies"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Status"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button>
+      Save Mission
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should set MissionNameShort on input change 2`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Mission Short Name"
+      required={true}
+      type="text"
+      value="Test input"
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Mission Full Name"
+      required={true}
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Agencies"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Mission Status"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button>
+      Save Mission
+    </button>
+  </form>
+</div>
+`;

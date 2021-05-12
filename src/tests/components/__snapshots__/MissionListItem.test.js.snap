@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render a MissionListItem with mission details 1`] = `
+<tr>
+  <td>
+    1
+  </td>
+  <td>
+    Mars
+  </td>
+  <td>
+    Fspace
+  </td>
+  <td>
+    Approved
+  </td>
+  <td>
+    <Link
+      to="/edit/1"
+    >
+      Edit Mission
+    </Link>
+  </td>
+</tr>
+`;

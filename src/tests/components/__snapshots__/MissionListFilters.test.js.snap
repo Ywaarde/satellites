@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MissionListFilters correctly 1`] = `
+<div>
+  <p>
+    Search for 'Mission Name Short'
+  </p>
+  <input
+    onChange={[Function]}
+    option=""
+    type="text"
+  />
+  <p>
+    Sort by: 
+  </p>
+  <select
+    onChange={[Function]}
+    value="id"
+  >
+    <option
+      value="mission_id"
+    >
+      Mission ID
+    </option>
+    <option
+      value="name_short"
+    >
+      Mission Name Short
+    </option>
+    <option
+      value="agencies"
+    >
+      Mission Agencies
+    </option>
+    <option
+      value="status"
+    >
+      Mission Status
+    </option>
+  </select>
+</div>
+`;
